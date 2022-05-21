@@ -1,2 +1,4 @@
-package com.example.springBootDTO.repositories;public class LocationRepository {
+package com.example.springBootDTO.repositories;
+
+public class LocationRepository {
 }
