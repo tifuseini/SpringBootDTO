@@ -1,4 +1,6 @@
 package com.example.springBootDTO.repositories;
 
-public interface LocationRepository extends  {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LocationRepository extends JpaRepository {
 }
