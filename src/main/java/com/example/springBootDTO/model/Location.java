@@ -22,4 +22,6 @@ public class Location {
     private String description;
 
     private double longitude;
+
+    private double latitude;
 }
