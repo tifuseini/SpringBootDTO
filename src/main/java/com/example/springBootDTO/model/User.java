@@ -30,5 +30,7 @@ public class User {
     @Column(name = "password")
     private String password;
 
-    private Location location
+    @ManyToOne(fetch = FetchType.EAGER,optional = false )
+    @JoinColumn(name = "location_id")
+    private Location location;
 }
