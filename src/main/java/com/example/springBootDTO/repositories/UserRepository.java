@@ -1,4 +1,6 @@
 package com.example.springBootDTO.repositories;
 
-public interface UserRepository extends  {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository {
 }
