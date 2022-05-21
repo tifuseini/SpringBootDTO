@@ -1,4 +1,4 @@
 package com.example.springBootDTO.repositories;
 
-public interface UserRepository {
+public interface UserRepository extends  {
 }
