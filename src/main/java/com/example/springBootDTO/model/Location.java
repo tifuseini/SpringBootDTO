@@ -19,4 +19,6 @@ public class Location {
 
     private String place;
 
+    private String description;
+
 }
