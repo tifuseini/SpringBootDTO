@@ -1,4 +1,4 @@
 package com.example.springBootDTO.repositories;
 
-public interface LocationRepository {
+public interface LocationRepository extends  {
 }
