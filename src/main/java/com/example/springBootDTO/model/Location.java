@@ -1,2 +1,4 @@
-package com.example.springBootDTO.model;public class Location {
+package com.example.springBootDTO.model;
+
+public class Location {
 }
