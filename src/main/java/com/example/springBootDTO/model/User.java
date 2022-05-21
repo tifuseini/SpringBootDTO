@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import javax.xml.stream.Location;
 
 @Data
 @AllArgsConstructor
@@ -19,9 +20,12 @@ public class User {
 
     private String email;
 
+    @Column(name = "first_name")
     private String firstName;
 
     private String lastName;
 
     private String password;
+
+    private Location location
 }
