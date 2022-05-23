@@ -1,2 +1,9 @@
-package com.example.springBootDTO.dto;public class UserLocationDTO {
+package com.example.springBootDTO.dto;
+
+import lombok.Data;
+
+@Data
+public class UserLocationDTO {
+
+
 }
