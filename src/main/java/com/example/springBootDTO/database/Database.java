@@ -1,2 +1,4 @@
-package com.example.springBootDTO.database;public class Database {
+package com.example.springBootDTO.database;
+
+public class Database {
 }
