@@ -7,5 +7,6 @@ public class UserLocationDTO {
 
     private long userId;
 
-    private
+    private String email;
+
 }
