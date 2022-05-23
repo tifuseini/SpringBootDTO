@@ -26,5 +26,6 @@ public class Database {
 
         User user1 = new User;
         user1.setFirstName("Tahiru");
+        user1.setLastName("Iddrisu");
     }
 }
