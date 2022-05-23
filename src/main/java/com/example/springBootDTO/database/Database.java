@@ -17,5 +17,6 @@ public class Database {
     public void run() throws Exception{
 
         Location location = new Location();
+        location.setPlace("Accra");
     }
 }
