@@ -16,6 +16,6 @@ public class Database {
     @Override
     public void run() throws Exception{
 
-        Location location
+        Location location = new Location();
     }
 }
