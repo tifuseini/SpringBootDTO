@@ -1,5 +1,6 @@
 package com.example.springBootDTO.database;
 
+import com.example.springBootDTO.model.Location;
 import com.example.springBootDTO.repositories.LocationRepository;
 import com.example.springBootDTO.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,5 +14,8 @@ public class Database {
     private LocationRepository locationRepository;
 
     @Override
-    public void run() throws Exception
+    public void run() throws Exception{
+
+        Location location
+    }
 }
