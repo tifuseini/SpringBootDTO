@@ -30,7 +30,7 @@ public class Database {
         user1.setEmail("tahiru@outlook.com");
         user1.setPassword("secret");
         user1.setLocation(location);
-        userRepository.save(user1)
+        userRepository.save(user1);
 
         User user2 = new User();
         user2.setFirstName("Tahiru");
