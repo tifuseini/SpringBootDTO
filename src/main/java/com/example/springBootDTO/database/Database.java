@@ -33,6 +33,6 @@ public class Database {
 
         User user2 = new User();
         user2.setFirstName("Tahiru");
-        user2.
+        user2.setLastName("Iddrisu");
     }
 }
