@@ -7,4 +7,6 @@ public class Database {
 
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
 }
