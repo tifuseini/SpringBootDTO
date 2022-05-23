@@ -38,6 +38,6 @@ public class Database {
         user2.setEmail("tahiru@outlook.com");
         user2.setPassword("secret");
         user2.setLocation(location);
-        userRepository.save()
+        userRepository.save(user2)
     }
 }
