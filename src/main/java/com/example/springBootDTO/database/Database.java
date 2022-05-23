@@ -35,6 +35,6 @@ public class Database {
         user2.setFirstName("Tahiru");
         user2.setLastName("Iddrisu");
         user2.setEmail("tahiru@outlook.com");
-        user2.
+        user2.setPassword("secret");
     }
 }
