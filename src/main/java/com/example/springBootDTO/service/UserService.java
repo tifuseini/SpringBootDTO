@@ -23,6 +23,7 @@ public class UserService {
     }
 
     private <UserLocationDTO>  covertEntityToDto(User user) {
+        UserLocationDTO userLocationDTO  =new User()
     }
 
 
