@@ -16,6 +16,7 @@ public class UserService {
     public List<UserLocationDTO> getAllUsersLocation(){
         return userRepository.findAll()
                 .stream()
+                .map()
     }
 
 
