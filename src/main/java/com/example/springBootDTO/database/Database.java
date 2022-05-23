@@ -28,5 +28,6 @@ public class Database {
         user1.setFirstName("Tahiru");
         user1.setLastName("Iddrisu");
         user1.setEmail("tahiru@outlook.com");
+        user1.setPassword("secret");
     }
 }
