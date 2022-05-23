@@ -22,5 +22,7 @@ public class Database {
         location.setLongitude(30.89);
         location.setLatitude(40.09);
         locationRepository.save(location);
+
+        User user1
     }
 }
