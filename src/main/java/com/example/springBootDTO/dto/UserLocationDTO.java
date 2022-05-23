@@ -12,4 +12,6 @@ public class UserLocationDTO {
     private String place;
 
     private double longitude;
+
+    private double latitude;
 }
