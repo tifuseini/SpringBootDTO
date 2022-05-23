@@ -13,4 +13,5 @@ public class Database {
     private LocationRepository locationRepository;
 
     @Override
+    public void run() throws Exception
 }
