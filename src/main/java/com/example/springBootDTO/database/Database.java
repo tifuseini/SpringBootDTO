@@ -24,6 +24,6 @@ public class Database {
         location.setLatitude(40.09);
         locationRepository.save(location);
 
-        User user1
+        User user1 = new User;
     }
 }
