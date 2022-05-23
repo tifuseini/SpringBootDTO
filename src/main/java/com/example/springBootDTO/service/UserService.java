@@ -22,7 +22,7 @@ public class UserService {
                 .collect(Collectors.toList());
     }
 
-    private <R> R covertEntityToDto(User user) {
+    private <UserLocationDTO>  covertEntityToDto(User user) {
     }
 
 
