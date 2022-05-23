@@ -1,6 +1,7 @@
 package com.example.springBootDTO.service;
 
 import com.example.springBootDTO.dto.UserLocationDTO;
+import com.example.springBootDTO.model.User;
 import com.example.springBootDTO.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,7 +17,11 @@ public class UserService {
     public List<UserLocationDTO> getAllUsersLocation(){
         return userRepository.findAll()
                 .stream()
-                .map()
+                .map(this::covertEntityToDto)
+                .collect()
+    }
+
+    private <R> R covertEntityToDto(User user) {
     }
 
 
