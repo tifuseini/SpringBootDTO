@@ -13,8 +13,8 @@ public class Database {
     @Autowired
     private LocationRepository locationRepository;
 
-    @Override
-    public void run() throws Exception{
+
+    public void run(String... args) throws Exception{
 
         Location location = new Location();
         location.setPlace("Accra");
