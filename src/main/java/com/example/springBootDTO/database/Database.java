@@ -31,6 +31,6 @@ public class Database {
         user1.setPassword("secret");
         user1.setLocation(location);
 
-        User user2
+        User user2 = new User();
     }
 }
