@@ -25,5 +25,6 @@ public class Database {
         locationRepository.save(location);
 
         User user1 = new User;
+        user1.setFirstName("Tahiru");
     }
 }
