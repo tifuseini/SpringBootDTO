@@ -13,7 +13,9 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    public List<UserLocationDTO>
+    public List<UserLocationDTO> getAllUsersLocation(){
+        return userRepository.findAll()]
+    }
 
 
 }
