@@ -16,7 +16,9 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/users-location")
-    public List<UserLocationDTO>  get
+    public List<UserLocationDTO>  getaallUsersLocation(){
+        return userService.getAllUsersLocation();
+    }
 
 
 }
