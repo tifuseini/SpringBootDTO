@@ -30,5 +30,7 @@ public class Database {
         user1.setEmail("tahiru@outlook.com");
         user1.setPassword("secret");
         user1.setLocation(location);
+
+        User user2
     }
 }
