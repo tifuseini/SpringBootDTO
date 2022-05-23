@@ -32,5 +32,6 @@ public class Database {
         user1.setLocation(location);
 
         User user2 = new User();
+        user2.se
     }
 }
