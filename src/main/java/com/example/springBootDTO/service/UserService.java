@@ -18,19 +18,19 @@ public class UserService {
     public List<UserLocationDTO> getAllUsersLocation(){
         return userRepository.findAll()
                 .stream()
-                .map(this::covertEntityToDto)
+                .map(this::convertEntityToDto)
                 .collect(Collectors.toList());
+
     }
 
-    private <UserLocationDTO>  covertEntityToDto(User user) {
-        UserLocationDTO userLocationDTO  =new UserLocationDTO();
+    private UserLocationDTO convertEntityToDto(User user){
+        UserLocationDTO userLocationDTO = new UserLocationDTO();
         userLocationDTO.setUserId(user.getId());
         userLocationDTO.setEmail(user.getEmail());
         userLocationDTO.setPlace(user.getLocation().getPlace());
         userLocationDTO.setLongitude(user.getLocation().getLongitude());
         userLocationDTO.setLatitude(user.getLocation().getLatitude());
-
-        return;userLocationDTO;
+        return userLocationDTO;
     }
 
 

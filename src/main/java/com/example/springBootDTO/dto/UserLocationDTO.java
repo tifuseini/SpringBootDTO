@@ -1,8 +1,12 @@
 package com.example.springBootDTO.dto;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 @Data
+@Getter
+@Setter
 public class UserLocationDTO {
 
     private long userId;
