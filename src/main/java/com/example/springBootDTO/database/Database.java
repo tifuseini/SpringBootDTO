@@ -20,5 +20,6 @@ public class Database {
         location.setPlace("Accra");
         location.setDescription("Accra is expensive to live");
         location.setLongitude(30.89);
+        location.setLatitude(40.09);
     }
 }
