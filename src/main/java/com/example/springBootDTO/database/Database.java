@@ -24,7 +24,7 @@ public class Database {
         location.setLatitude(40.09);
         locationRepository.save(location);
 
-        User user1 = new User()
+        User user1 = new User();
         user1.setFirstName("Tahiru");
         user1.setLastName("Iddrisu");
         user1.setEmail("tahiru@outlook.com");
