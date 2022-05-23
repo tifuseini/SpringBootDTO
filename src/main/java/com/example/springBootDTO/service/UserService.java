@@ -1,2 +1,4 @@
-package com.example.springBootDTO.service;public class UserService {
+package com.example.springBootDTO.service;
+
+public class UserService {
 }
