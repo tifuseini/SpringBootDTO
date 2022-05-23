@@ -10,4 +10,6 @@ public class UserLocationDTO {
     private String email;
 
     private String place;
+
+    private double longitude;
 }
