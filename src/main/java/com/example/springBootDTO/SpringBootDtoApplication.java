@@ -18,11 +18,11 @@ public class SpringBootDtoApplication {
 	@Autowired
 	private UserRepository userRepository;
 
+
 	@Autowired
 	private LocationRepository locationRepository;
 
 
-	@Override
 	public void run(String... args) throws Exception{
 
 		Location location = new Location();
